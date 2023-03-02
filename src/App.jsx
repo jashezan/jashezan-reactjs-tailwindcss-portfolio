@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="bg-slate-900 bg-hero-pattern-4 bg-blend-overlay backdrop-blur-md">
+      <main className="bg-slate-900 bg-[url('https://cdn.jsdelivr.net/gh/jashezan/jashezan-reactjs-tailwindcss-portfolio/public/vanishing-stripes.svg')] bg-blend-overlay backdrop-blur-md">
         <Home />
         <About />
         <Skills />
