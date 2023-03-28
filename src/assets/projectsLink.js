@@ -9,6 +9,18 @@ const projectslink = [
     code: "https://github.com/jashezan/Course-Store-with-NodeJS",
   },
   {
+    name: "Cosmo Junkie",
+    picture: `https://cdn.jsdelivr.net/gh/jashezan/public-resources/Images/Web-Projects/optimized-images/cosmo-junkie-720x.jpg`,
+    demo: "https://custom-junkie.netlify.app/",
+    code: "https://github.com/jashezan/cosmo-junkie",
+  },
+  {
+    name: "Shez Booking Frontend",
+    picture: `https://cdn.jsdelivr.net/gh/jashezan/public-resources/Images/Web-Projects/optimized-images/shez-booking-frontend-720x.jpg`,
+    demo: "https://shez-booking-frontend.netlify.app/",
+    code: "https://github.com/jashezan/shez-booking-frontend",
+  },
+  {
     name: "Foodies Website",
     picture: `https://cdn.jsdelivr.net/gh/jashezan/public-resources/Images/Web-Projects/optimized-images/foodies-website-720x.jpg`,
     demo: "https://icbatch4-shezan-a4.netlify.app/",
@@ -21,6 +33,16 @@ const projectslink = [
     code: "https://github.com/jashezan/React-JS-Todo-App",
   },
   {
+    name: "J.A. Shezan's Old Portfolio",
+    picture: `https://cdn.jsdelivr.net/gh/jashezan/public-resources/Images/Web-Projects/optimized-images/jashezan-html-css-old-portfolio-720x.jpg`,
+    demo: "https://jashezan.github.io/Web-Projects/jashezan-html-css-old-portfolio",
+    code: "https://github.com/jashezan/Web-Projects/tree/main/jashezan-html-css-old-portfolio",
+  },
+];
+
+export const allProjects = [
+  ...projectslink,
+  {
     name: "Breaking Bad Cast",
     picture: `https://cdn.jsdelivr.net/gh/jashezan/public-resources/Images/Web-Projects/optimized-images/breaking-bad-cast-720x.jpg`,
     demo: "https://jashezan.github.io/Breaking-Bad-Cast/",
@@ -32,16 +54,6 @@ const projectslink = [
     demo: "https://jashezan.github.io/Web-Projects/flex-panel-js30/",
     code: "https://github.com/jashezan/Web-Projects/tree/main/flex-panel-js30",
   },
-  {
-    name: "J.A. Shezan's Old Portfolio",
-    picture: `https://cdn.jsdelivr.net/gh/jashezan/public-resources/Images/Web-Projects/optimized-images/jashezan-html-css-old-portfolio-720x.jpg`,
-    demo: "https://jashezan.github.io/Web-Projects/jashezan-html-css-old-portfolio",
-    code: "https://github.com/jashezan/Web-Projects/tree/main/jashezan-html-css-old-portfolio",
-  },
-];
-
-export const allProjects = [
-  ...projectslink,
   {
     name: "Comments Remover",
     picture: `${PROJECT_IMAGES_LINK}comments-remover-720x.jpg`,
